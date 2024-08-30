@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Timer</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
-    <h1>Home Page</h1>
+    <h1>Timer Page</h1>
 
     <!-- Navigation Links -->
+    <a href="index.html">Home</a>
     <a href="01-color-switcher.html">Color Switcher</a>
-    <a href="02-timer.html">Timer</a>
     <a href="03-promises.html">Promises</a>
 
+    <!-- Include the Timer partial -->
     <div id="content">
-      <p>Welcome to the homepage!</p>
+      <include src="./partials/02-timer.html"></include>
     </div>
 
     <script type="module" src="./index.js"></script>
